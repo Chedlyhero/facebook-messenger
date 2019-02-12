@@ -188,14 +188,14 @@ module Facebook
 					    {
 					      title: "Contact", 
 					      image_url: "https://www.simplebot.tn/hyundai/service.jpg",
-					      subtitle: "Nous somme désolé, pas d’agent disponible pour le moment je vous invite à laisser un message à travers le formulaire suivant",
+					      subtitle: "Nous sommes désolés, pas d’agent disponible pour le moment, Merci d'utiliser le formulaire suivant",
 					      buttons: [
 						{
 						  type: "web_url",
 						  url: "https://www.simplebot.tn/chedly/contact/?name=#{@name}",
 						  webview_height_ratio: "FULL",
 						  messenger_extensions: true,
-						  title: "Formulaire de contact"
+						  title: "Contact"
 						}
 					      ]      
 					    }
